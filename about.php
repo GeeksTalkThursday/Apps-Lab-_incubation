@@ -1,52 +1,8 @@
-<?php
- include"teacher-login.php";
-?>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Addition sample</title>
-	</head>
-	<body>                                        
-                              <h1>Our Basic Calculator</h>
-                               <form method="POST">
-                                       <input type="text" name="first"/> 
-                                       <input type="text" name="second"/>
-                                        <input type="submit" name="send"/>
-                               </form>
 
-                                                      <div class="col-md-12" >
-							<div class="col-md-7">
-								<form method="post">
-									<div class="form-group col-md-10 col-md-offset-1">
-										<Label class"label">Name</Label>
-										<input type="text" name="name" class="form-control" placeholder="Enter your Name" required/>
-									</div>
-									<div class="form-group col-md-10 col-md-offset-1">
-										<Label class"label">Location</Label>
-										<input type="text" name="location" class="form-control" placeholder="Enter your Location" required/>
-									</div>
-									<div class="form-group col-md-10 col-md-offset-1">
-										<Label class"label">Message</Label>
-										<textarea class="form-control" name="message" required/> 
-											
-										</textarea>
-									</div>
-										<div class="col-md-8 col-md-offset-2"> 
-											<div class="form-group col-md-6 ">
-												<input type="reset" name"reset" class="btn btn-success" value="RESET" />
-											</div>
-											<div class="form-group col-md-6 ">
-												<input type="submit" name"btn-submit" class="btn btn-primary" value="SEND" />
-											</div>
-										</div>
-								</form>
-							</div>
-
-
-
-</body>
-
-		<script type="text/javascript" src="js/jquery2.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-</html>
+<div class="col-md-8 col-md-offset-2" >
+						<h2> About Us</h2>
+						<p> One reason for this is that they help us build upon the combined experience of many developers <br /> that came before us and ensure we structure our code in an <br />optimized way, meeting the needs of problems we're attempting to solve.
+						Design patterns also provide us a common vocabulary to describe solutions. This can be significantly simpler than describing syntax and semantics when we're attempting to convey a way of structuring a solution in code form to others.<hr>
+						</p><br><br>
+					</div>
+					
